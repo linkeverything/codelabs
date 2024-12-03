@@ -1,0 +1,76 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>How to make a Codelab in Github Pages</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/claat-public/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14" ga4id=""></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  codelab-ga4id=""
+                  id="20241203-how-to-codelab"
+                  title="How to make a Codelab in Github Pages"
+                  environment="web"
+                  feedback-link="">
+    
+      <google-codelab-step label="Introduction" duration="0">
+        <p>This codelab describe the process that making codelab page in Github pages.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Pre-requisites" duration="0">
+        <p>In local machine, <code>brew</code> should be installed.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Step 1: Install 
+go and 
+claat" duration="0">
+        <h2 is-upgraded>Install <code>go</code>:</h2>
+<pre><code language="language-shell" class="language-shell">brew install go
+</code></pre>
+<h2 is-upgraded>Add <code>go</code> binary to <code>PATH</code>:</h2>
+<pre><code language="language-shell" class="language-shell">echo &#39;export PATH=$PATH:~/go/bin&#39; &gt;&gt; ~/.zshrc
+</code></pre>
+<pre><code language="language-shell" class="language-shell">source ~/.zshrc
+</code></pre>
+<h2 is-upgraded>Then , install <code>claat</code>:</h2>
+<pre><code language="language-shell" class="language-shell">go install github.com/googlecodelabs/tools/claat@latest
+</code></pre>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Step 2: create a markdown 
+.md file" duration="0">
+        
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/claat-public/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/prettify.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>

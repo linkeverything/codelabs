@@ -33,6 +33,6 @@ source ~/.zshrc
 go install github.com/googlecodelabs/tools/claat@latest
 ```
 
-## Step 2: Do Something Else
-Instructions for step 2.
+## Step 2: create a markdown `.md` file
+
 
