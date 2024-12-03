@@ -68,6 +68,8 @@ claat create a `codelab-id` directory in the same path. (id based directory.)
 
 ## Step 4: push to github pages
 
+Duration: 0:02:00
+
 Copy the `codelab-id` directory to the github repo's `docs` folder.
 
 Then, in the settings in the respository, enable pages as below:
@@ -75,6 +77,8 @@ Then, in the settings in the respository, enable pages as below:
 ![settings in repository](./assets/images/20241203-how-to-codelab/img.png)
 
 ## Step 5: Check in the browser
+
+Duration: 0:01:00
 
 Finally, we can check the codelab in:
 ```text
