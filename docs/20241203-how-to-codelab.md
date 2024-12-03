@@ -70,3 +70,10 @@ Copy the `codelab-id` directory to the github repo's `docs` folder.
 Then, in the settings in the respository, enable pages as below:
 
 ![settings in repository](./assets/images/20241203-how-to-codelab/img.png)
+
+## Step 5: Check in the browser
+
+Finally, we can check the codelab in:
+```text
+https://<username>.github.io/<repo>/codelab-id/
+```
