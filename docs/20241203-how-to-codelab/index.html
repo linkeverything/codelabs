@@ -43,15 +43,15 @@
       <google-codelab-step label="Step 1: Install 
 go and 
 claat" duration="0">
-        <h2 is-upgraded>Install <code>go</code>:</h2>
+        <p>Install <code>go</code>:</p>
 <pre><code language="language-shell" class="language-shell">brew install go
 </code></pre>
-<h2 is-upgraded>Add <code>go</code> binary to <code>PATH</code>:</h2>
+<p>Add <code>go</code> binary to <code>PATH</code>:</p>
 <pre><code language="language-shell" class="language-shell">echo &#39;export PATH=$PATH:~/go/bin&#39; &gt;&gt; ~/.zshrc
 </code></pre>
 <pre><code language="language-shell" class="language-shell">source ~/.zshrc
 </code></pre>
-<h2 is-upgraded>Then , install <code>claat</code>:</h2>
+<p>Then , install <code>claat</code>:</p>
 <pre><code language="language-shell" class="language-shell">go install github.com/googlecodelabs/tools/claat@latest
 </code></pre>
 
@@ -60,7 +60,41 @@ claat" duration="0">
     
       <google-codelab-step label="Step 2: create a markdown 
 .md file" duration="0">
-        
+        <p>Make a markdown file(<code>sample.md</code>) like:</p>
+<pre><code language="language-markdown" class="language-markdown">summary: Title of the Codelab
+id: codelab-id
+categories: Web, Beginner
+status: Published
+
+# Title of the Codelab
+
+## Introduction
+Brief introduction of the blog/tutorial.
+
+## Step 1: Do Something
+Instructions for step 1.
+
+## Step 2: Do Something Else
+Instructions for step 2.
+</code></pre>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Step 3: export the markdown file" duration="0">
+        <p>In the same directory with markdown file:</p>
+<pre><code language="language-shell" class="language-shell">claat export sample.md
+</code></pre>
+<p>claat create a <code>codelab-id</code> directory in the same path. (id based directory.)</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Step 4: push to github pages" duration="0">
+        <p>Copy the <code>codelab-id</code> directory to the github repo&#39;s <code>docs</code> folder.</p>
+<p>Then, in the settings in the respository, enable pages as below:</p>
+<p class="image-container"><img alt="settings in repository" src="img/f91fe15cf0199ee2.png"></p>
+
 
       </google-codelab-step>
     
