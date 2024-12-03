@@ -63,8 +63,8 @@ claat export sample.md
 
 claat create a `codelab-id` directory in the same path. (id based directory.)
 
-Positive
-: When using images in markdown file, those are included in img folder in exported directory.
+> aside positive
+> When using images in markdown file, those are included in img folder in exported directory.
 
 ## Step 4: push to github pages
 
