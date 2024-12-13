@@ -3,12 +3,12 @@
   "format": "html",
   "prefix": "https://storage.googleapis.com",
   "mainga": "UA-49880327-14",
-  "updated": "2024-12-03T19:17:16+09:00",
-  "id": "20241203-how-to-codelab",
+  "updated": "2024-12-13T13:44:30+09:00",
+  "id": "how-to-make-a-codelab",
   "duration": 3,
   "title": "How to make a Codelab in Github Pages",
   "summary": "How to create a codelab in Github pages",
-  "source": "20241203-how-to-codelab.md",
+  "source": "20241203-how-to-make-a-codelab.md",
   "theme": "",
   "status": [
     "published"
@@ -18,5 +18,5 @@
     "githubpages"
   ],
   "tags": [],
-  "url": "20241203-how-to-codelab"
+  "url": "how-to-make-a-codelab"
 }

@@ -1,5 +1,5 @@
 summary: How to create a codelab in Github pages
-id: 20241203-how-to-codelab
+id: how-to-make-a-codelab
 categories: Codelab, github pages
 status: Published
 
