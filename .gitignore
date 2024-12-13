@@ -1,0 +1,9 @@
+# Vim
+*~
+*.sw[p_]
+
+# macOS
+.DS_Store
+.vscode
+*.idea
+
